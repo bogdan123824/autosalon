@@ -1,0 +1,56 @@
+.intro__connection {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	text-align: center;
+    height: 500px;
+    background-image: url('../img/connection.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2a2e48;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.forma .area__buy__connection {
+    height: 115px;
+}
+
+
+.end-adress {
+    padding: 40px 0;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #98b8ff;
+}
+
+.end-adress__title {
+    color: #253fe9;
+    font-weight: bold;
+    font-size: 20px;
+}
+.end-adress__line {
+    height: 1px;
+    width: 200px;
+    background-color: #253fe9;
+    margin: 15px 0;
+}
+.end-adress__text {
+    color: #2a2e48;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.tel-email {
+    display: flex;
+    align-items: center;
+}
+.tel-email a{
+    text-decoration: none;
+    color: #253fe9;
+    font-size: 17px;
+    margin-left: 2px;
+}

@@ -1,0 +1,24 @@
+.button__admin {
+    padding: 0.8rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-top: 0;
+    transition: all .8s;
+}
+
+.button__admin:hover {
+    opacity: 0.8;
+}
+
+.button__admin:disabled {
+    cursor: not-allowed;
+}
+
+.button__admin.active {
+    background: linear-gradient(90deg, rgb(29, 93, 255) 0%, #1ba8ff 100%);
+    color: #fff;
+}

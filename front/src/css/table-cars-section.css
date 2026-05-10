@@ -1,0 +1,87 @@
+.table-container {
+    font-family: Arial, sans-serif;
+    background-color: #aacdff;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-bottom: 100px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+thead {
+    background-color: #007bff;
+}
+
+thead th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+    background-color: #afc9ef;
+}
+
+tbody tr:nth-child(even):hover {
+    background-color: #ebdede;
+}
+
+.img-admin {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.action-btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 10px 5px 0;
+}
+
+.action-btn:hover {
+    background-color: #0056b3;
+}
+
+.action-btn:focus {
+    outline: none;
+}
+
+.add-car-block {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.add-cars-text {
+    
+}
+
+.add-cars-btn {
+    position: absolute;
+    right: 0;
+}

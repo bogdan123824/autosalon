@@ -1,0 +1,37 @@
+.intro__test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-image: url('../img/test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2a2e48;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.block-radio {
+    margin-bottom: 15px;
+}
+.block-radio input {
+    display: flex;
+    flex-direction: column;
+    width: 3%;
+}
+.block-radio .block-radio__block {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    padding: 5px 0;
+    margin: 0;
+}
+.block-radio .block-radio__block input{
+    height: 20px;
+    margin-right:10px;
+}
+
+.container .right-forma .area__test {
+    height: 85px;
+}
+

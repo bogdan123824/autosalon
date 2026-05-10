@@ -1,0 +1,129 @@
+
+
+.intro-buy {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-image: url('../img/buy-auto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2a2e48;
+    padding-top: 100px;
+}
+
+.forma {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.left-forma {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.block {
+    margin-bottom: 15px;
+}
+
+.block input {
+    height: 35px;
+    max-width: 350px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    border-bottom: solid 1px #15a0ed;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #324950;
+}
+.right-forma {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.right-forma select{
+    height: 35px;
+    max-width: 635px;
+    width: 100%;
+    margin: 0;
+    padding-left: 10px;
+    border: solid 1px #15a0ed;
+    border-radius: 10px;
+    font-size: 17px;
+
+    appearance: none;
+    background: url("../img/Frame.png") no-repeat right;
+    background-position-x: calc(100% - 15px);
+    background-color: transparent;
+}
+
+.right-block {
+    margin-bottom: 15px;
+}
+
+.right-block input {
+    height: 35px;
+    max-width: 635px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border: solid 1px #15a0ed;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.right-forma textarea{
+    resize: none;
+    height: 192px;
+    max-width: 635px;
+    width: 100%;
+    border: solid 1px #15a0ed;
+    border-radius: 10px;
+    color:#324950;
+    font-size: 17px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+
+.button-form {
+    height: 35px;
+    max-width: 200px;
+    width: 100%;
+    font-size: 17px;
+    color: #FFFFFF;
+    background-color: #437fff;
+    border-radius: 30px;
+    border: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 7px;
+}
+
+.block-btn {
+    display: flex;
+    justify-content: right;
+}
+
+.end-end {
+    padding: 20px 10px 10px 5px;
+    font-size: 17px;
+    font-weight: 800;
+    color: rgb(69, 113, 236);
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}

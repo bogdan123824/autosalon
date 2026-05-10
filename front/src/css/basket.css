@@ -1,0 +1,106 @@
+.car__basket {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out; 
+    opacity: 0;
+    pointer-events: none; 
+}
+
+.car__basket.open {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+.car__basket--content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    box-shadow: -3px 0px 15px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out; 
+}
+
+.car__basket.open .car__basket--content {
+    transform: translateX(0); 
+}
+
+.car__basket--close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.car__basket img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.h2--basket {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.p--basket {
+    font-size: 17px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.p--not--car {
+    font-size: 19px;
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+}
+.car__basket--content svg {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.confirm-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.modal--main {
+    font-size: 19px;
+    text-align: left;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.modal--btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

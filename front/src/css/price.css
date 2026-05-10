@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    padding: 50px 0;
+    color: #2d3033;
+}
+h3 {
+    text-align: center;
+    color: #2d3033;
+}
+.intro__price {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-size: cover;
+    background-image: url('../img/price.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2a2e48;
+    padding-top: 100px;
+}
+
+.container .our-auto {
+    margin: 30px 0 50px 0;
+}
+
+.btn--blue {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 40px;
+    background-color: #5175ed;
+	border-radius: 15px;
+	border: 0;
+	cursor: pointer;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 600;
+
+	text-decoration: none;
+	text-align: center;
+
+	transition: background .1s linear;
+}
+
+.btn--blue:hover {
+	background-color: #0f41e9;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    margin: 55px 0;
+    gap: 15px;
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #15a0ed;
+}
+
+.label-price {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
